@@ -1,0 +1,6 @@
+f = open('TestFile.txt')
+f.readlines()
+print(f.name)
+print ( f.closed )
+f.close()
+print ( f.closed )
